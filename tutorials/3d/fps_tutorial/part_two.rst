@@ -187,7 +187,7 @@ and in an effort to make everything look smooth, we need to play them at faster 
 
 ``current_state`` will hold the name of the animation state we are currently in.
 
-Finally, ``callback_function`` will be a :ref:`FuncRef <class_FuncRef>` passed in by the player for spawning bullets
+Finally, ``callback_function`` will be a :ref:`FuncRef <class_FuncRef>` passed in by the Player script for spawning bullets
 at the proper frame of animation. A :ref:`FuncRef <class_FuncRef>` allows us to pass in a function as an argument,
 effectively allowing us to call a function from another script, which is how we will use it later.
 
